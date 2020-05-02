@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+h1, h2, p {
+    font-family: 'Bungee', cursive;
+    color: yellow;
+}
+
+.title {
+    border: solid yellow 5px;
+    background-color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.logo-in-code {
+    line-height: 1;
+}
+
+.about {
+    border: solid yellow 3px;
+    padding: 10px;
+}
+
+.projects-and-startups {
+    border : solid yellow 3px;
+    padding : 10px;
+}
+#eduverse {
+    font-family: 'Fredoka One', cursive;
+}
+
+#flashmates {
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+#doculator {
+    font-family: 'Righteous', cursive;
+}
+
+
+footer {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    /*background-color: #333333;*/
+}
+
+footer p {
+    position: absolute;
+    width: 100%;
+    /*color: #fff;*/
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    bottom:0;
+}
