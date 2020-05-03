@@ -1,10 +1,19 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
-h1, h2, p {
+.title h1, h2{
     font-family: 'Bungee', cursive;
     color: yellow;
+}
+
+h1, h2 {
+    font-family: 'Bungee', cursive;
+    color: black;
+}
+
+p {
+    font-family: 'Aldrich', sans-serif;
 }
 
 .title {
@@ -20,20 +29,33 @@ h1, h2, p {
 }
 
 .about {
-    border: solid yellow 3px;
+    background-color: yellow;
+    border: solid black 3px;
     padding: 10px;
 }
 
 .projects-and-startups {
-    border : solid yellow 3px;
+    background-color: yellow;
+    border : solid black 3px;
     padding : 10px;
 }
+
+.contact-us {
+    background-color: yellow;
+    border : solid black 3px;
+    padding : 10px;
+}
+
 #eduverse {
     font-family: 'Fredoka One', cursive;
 }
 
 #flashmates {
     font-family: 'Lexend Exa', sans-serif;
+}
+
+#mission-sukh {
+    font-family: 'Bangers', cursive;
 }
 
 #doculator {
@@ -49,6 +71,7 @@ footer {
 }
 
 footer p {
+    font-family: 'Bungee', cursive;
     position: absolute;
     width: 100%;
     /*color: #fff;*/
